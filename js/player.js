@@ -186,9 +186,7 @@ const bindEnd = (audio, Music) => {
         log('jinru', b)
         if (Object.keys(num).includes(b)) {
             // f 这个时候是一个函数
-            log('ended*********')
             let f = num[b]
-            log(f)
             f(audio, Music)
         }
     })
